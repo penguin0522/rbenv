@@ -14,7 +14,6 @@ typedef struct word_desc {
 
 typedef struct word_list {
   struct word_list *next;
-  
   WORD_DESC *word;
 } WORD_LIST;
 
